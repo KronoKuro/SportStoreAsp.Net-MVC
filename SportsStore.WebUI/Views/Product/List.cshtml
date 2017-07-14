@@ -1,0 +1,22 @@
+﻿@model SportsStore.WebUI.Models.ProductsListViewModel
+@{
+    ViewBag.Title = "Products";
+}
+
+@foreach (var p in Model.Products)
+{
+   
+       @Html.Partial("ProductSummary", p)
+    
+}
+<div class="btn-group pull-right">
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new {page = x}))
+</div>
+<!--Это представление  
+а также сюдда передаются данные контроллера
+и тут мы задаем как
+отобразит то что мы ему передали но отображение 
+в данном случае
+мы взяли даныне с Entiti Product
+но работаем мы с перечислением IEnumerable типа Product
+foreach выводит все елементы из моделли продукт-->

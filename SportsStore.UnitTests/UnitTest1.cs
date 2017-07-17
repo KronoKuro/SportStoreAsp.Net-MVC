@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -90,10 +91,33 @@ namespace SportsStore.UnitTests
             ProductController controller = new ProductController(mock.Object);
             controller.PageSize = 3;
             Product[] result = ((ProductsListViewModel)controller.List("Vasy", 1).Model).Products.ToArray();  
-            Assert.AreEqual(result.Length, 2);
+            Assert.AreEqual(result.Length, 3);
             Assert.IsTrue(result[0].Name == "H1" && result[0].Category == "Vasy");
             Assert.IsTrue(result[4].Name == "H12" && result[4].Category == "Jobs");
         }
+
+        [TestMethod]
+        public void Can_Create_Category()
+        {
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            mock.Setup(m => m.Products).Returns(new Product[]
+            {
+                new Product {ProductID = 1, Name = "Vase", Category = "Socer"},
+                new Product {ProductID = 2, Name = "sasd", Category = "Socer"},
+                new Product {ProductID = 3, Name = "Vmase", Category = "cb"},
+                new Product {ProductID = 4, Name = "hase", Category = "cb"},
+            });
+
+            NavController target = new NavController(mock.Object);
+           
+            string[] result = ((IEnumerable<string>)target.Menu().Model).ToArray();
+            Assert.AreEqual("Socer", result[0], "Первый элемент не Socer");
+            Assert.AreEqual(result.Length, 2, "Количество элементов = " +result.Length);
+            Assert.AreEqual("cb", result[3], "четвертый элемент не cb");
+
+        }
+
+
     }
     
 }

@@ -14,6 +14,8 @@ C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSComp
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -36,6 +38,8 @@ C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\System.Web.Webp
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\Microsoft.AI.Web.xml
@@ -64,7 +68,3 @@ C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\ru\System.Web.M
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
-C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
-C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
-C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
-C:\Users\user\Desktop\practica\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
